@@ -1,8 +1,9 @@
 
+from tkinter import *
 
 class Main:
     
-    
+
     
     def Initialize():
         rot_x = input("Enter value of rotation of x axis: ")
