@@ -1,19 +1,10 @@
-
 from tkinter import *
+from tkinter import ttk
 
-class Main:
-    
+root = Tk()
 
-    
-    def Initialize():
-        rot_x = input("Enter value of rotation of x axis: ")
-        rot_y = input("Enter value of rotation of y axis: ")
-        rot_z = input("Enter value of rotation of z axis: ")
-        duration = input("Enter duration of the operation: ")
+myLabel = Label(root, text ="Hello World!")   #Create a label
 
+myLabel.pack()  #shoving it on screen
 
-    def run_main():
-        Initialize():
-
-
-
+root.mainLoop()
